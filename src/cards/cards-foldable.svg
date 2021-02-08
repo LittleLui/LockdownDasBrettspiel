@@ -25,11 +25,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.77772005"
-     inkscape:cx="388.90069"
-     inkscape:cy="614.73897"
+     inkscape:zoom="1.0998622"
+     inkscape:cx="123.49249"
+     inkscape:cy="433.38503"
      inkscape:document-units="mm"
-     inkscape:current-layer="g1360"
+     inkscape:current-layer="g53892"
      showgrid="false"
      inkscape:window-width="2560"
      inkscape:window-height="1417"
@@ -319,7 +319,7 @@
     <linearGradient
        id="task_fg"
        osb:paint="solid"
-       gradientTransform="translate(-288.99252,-410.49948)">
+       gradientTransform="matrix(0.98576114,0,0,0.97958675,-287.34775,-399.17432)">
       <stop
          style="stop-color:#0f391f;stop-opacity:1;"
          offset="0"
@@ -392,7 +392,7 @@
     <linearGradient
        id="event_fg"
        osb:paint="solid"
-       gradientTransform="translate(-289.72177,-410.52264)">
+       gradientTransform="matrix(0.97172503,0,0,0.9595902,-286.43503,-388.10256)">
       <stop
          style="stop-color:#185b7b;stop-opacity:1;"
          offset="0"
@@ -428,7 +428,8 @@
     </linearGradient>
     <linearGradient
        id="breakdown_fg"
-       osb:paint="solid">
+       osb:paint="solid"
+       gradientTransform="matrix(0.98576114,0,0,0.97958675,-2.4701547,2.9455356)">
       <stop
          style="stop-color:#9a1417;stop-opacity:1;"
          offset="0"
@@ -452,7 +453,8 @@
     </linearGradient>
     <linearGradient
        id="player_fg"
-       osb:paint="solid">
+       osb:paint="solid"
+       gradientTransform="matrix(0.98576125,0,0,0.97958675,1.0462419,3.1541621)">
       <stop
          style="stop-color:#343d4c;stop-opacity:1;"
          offset="0"
@@ -468,7 +470,8 @@
     </linearGradient>
     <linearGradient
        id="measure_4_fg"
-       osb:paint="solid">
+       osb:paint="solid"
+       gradientTransform="matrix(0.98576125,0,0,0.97958675,1.0462419,3.1541621)">
       <stop
          style="stop-color:#9a1417;stop-opacity:1;"
          offset="0"
@@ -484,7 +487,8 @@
     </linearGradient>
     <linearGradient
        id="measure_3_fg"
-       osb:paint="solid">
+       osb:paint="solid"
+       gradientTransform="matrix(0.98576125,0,0,0.97958675,1.0462419,3.1541621)">
       <stop
          style="stop-color:#b1620a;stop-opacity:1;"
          offset="0"
@@ -500,7 +504,8 @@
     </linearGradient>
     <linearGradient
        id="measure_2_fg"
-       osb:paint="solid">
+       osb:paint="solid"
+       gradientTransform="matrix(0.98576125,0,0,0.97958675,1.0462419,3.1541621)">
       <stop
          style="stop-color:#b5ae04;stop-opacity:1;"
          offset="0"
@@ -539,7 +544,8 @@
     </linearGradient>
     <linearGradient
        id="measure_1_fg"
-       osb:paint="solid">
+       osb:paint="solid"
+       gradientTransform="matrix(0.98576125,0,0,0.97958675,1.0462419,3.1541621)">
       <stop
          style="stop-color:#698d5e;stop-opacity:1;"
          offset="0"
@@ -931,15 +937,6 @@
     </clipPath>
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#measure_1_fg"
-       id="linearGradient8234"
-       x1="65.485585"
-       y1="119.63143"
-       x2="68.189296"
-       y2="119.63143"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       inkscape:collect="always"
        xlink:href="#measure_1_bg_solid"
        id="linearGradient8240"
        x1="-129.30173"
@@ -959,42 +956,6 @@
        y2="231.17169" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#measure_fg_title"
-       id="linearGradient8248"
-       x1="12.510996"
-       y1="115.94256"
-       x2="47.874225"
-       y2="115.94256"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#measure_fg_title"
-       id="linearGradient8254"
-       x1="12.510996"
-       y1="123.88006"
-       x2="47.874226"
-       y2="123.88006"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#measure_fg_text"
-       id="linearGradient8260"
-       x1="12.893041"
-       y1="134.16055"
-       x2="36.351471"
-       y2="134.16055"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#measure_2_fg"
-       id="linearGradient8266"
-       x1="64.938818"
-       y1="120.18292"
-       x2="69.071279"
-       y2="120.18292"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       inkscape:collect="always"
        xlink:href="#measure_2_bg_gradient_transparent"
        id="linearGradient8268"
        gradientUnits="userSpaceOnUse"
@@ -1011,15 +972,6 @@
        y1="41.755942"
        x2="-110.00407"
        y2="41.755942"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#measure_3_fg"
-       id="linearGradient8280"
-       x1="64.8396"
-       y1="120.32844"
-       x2="69.28956"
-       y2="120.32844"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
@@ -1042,15 +994,6 @@
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#measure_4_fg"
-       id="linearGradient8294"
-       x1="64.130132"
-       y1="120.28876"
-       x2="69.532593"
-       y2="120.28876"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       inkscape:collect="always"
        xlink:href="#measure_4_bg_gradient_transparent"
        id="linearGradient8298"
        gradientUnits="userSpaceOnUse"
@@ -1070,15 +1013,6 @@
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#player_fg"
-       id="linearGradient8310"
-       x1="-195.30701"
-       y1="105.24714"
-       x2="-113.70096"
-       y2="105.24714"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       inkscape:collect="always"
        xlink:href="#player_bg_gradient_transparent"
        id="linearGradient8312"
        gradientUnits="userSpaceOnUse"
@@ -1087,15 +1021,6 @@
        y1="132.41597"
        x2="249.46999"
        y2="231.17169" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#player_fg_text"
-       id="linearGradient8318"
-       x1="12.893041"
-       y1="129.56718"
-       x2="31.310535"
-       y2="129.56718"
-       gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#player_bg_solid"
@@ -1405,6 +1330,87 @@
        y1="205.26132"
        x2="176.6531"
        y2="205.26132" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#measure_4_fg"
+       id="linearGradient12191"
+       gradientUnits="userSpaceOnUse"
+       x1="64.130132"
+       y1="120.28876"
+       x2="69.532593"
+       y2="120.28876" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#measure_3_fg"
+       id="linearGradient12193"
+       gradientUnits="userSpaceOnUse"
+       x1="64.8396"
+       y1="120.32844"
+       x2="69.28956"
+       y2="120.32844" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#measure_2_fg"
+       id="linearGradient12195"
+       gradientUnits="userSpaceOnUse"
+       x1="64.938818"
+       y1="120.18292"
+       x2="69.071279"
+       y2="120.18292" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#measure_1_fg"
+       id="linearGradient12197"
+       gradientUnits="userSpaceOnUse"
+       x1="65.485585"
+       y1="119.63143"
+       x2="68.189296"
+       y2="119.63143" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#measure_fg_title"
+       id="linearGradient12199"
+       gradientUnits="userSpaceOnUse"
+       x1="12.510996"
+       y1="123.88006"
+       x2="47.874226"
+       y2="123.88006" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#measure_fg_text"
+       id="linearGradient12201"
+       gradientUnits="userSpaceOnUse"
+       x1="12.893041"
+       y1="134.16055"
+       x2="36.351471"
+       y2="134.16055" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#measure_fg_title"
+       id="linearGradient12203"
+       gradientUnits="userSpaceOnUse"
+       x1="12.510996"
+       y1="115.94256"
+       x2="47.874225"
+       y2="115.94256" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#player_fg_text"
+       id="linearGradient12205"
+       gradientUnits="userSpaceOnUse"
+       x1="12.893041"
+       y1="129.56718"
+       x2="31.310535"
+       y2="129.56718" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#player_fg"
+       id="linearGradient12207"
+       gradientUnits="userSpaceOnUse"
+       x1="-195.30701"
+       y1="105.24714"
+       x2="-113.70096"
+       y2="105.24714" />
   </defs>
   <metadata
      id="metadata5">
@@ -1414,7 +1420,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1634,11 +1640,11 @@
       <rect
          style="display:inline;fill:url(#task_fg);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.01;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
          id="evbleed-8"
-         width="136.95001"
-         height="99.021347"
-         x="-241.9548"
-         y="94.78463"
-         ry="2.0718142e-06"
+         width="135"
+         height="97"
+         x="-240.9798"
+         y="95.795303"
+         ry="2.0295217e-06"
          inkscape:label="evbleed"
          transform="rotate(-90)" />
       <rect
@@ -1650,7 +1656,7 @@
          y="110.00408"
          inkscape:label="bg" />
       <image
-         sodipodi:absref="D:\coden\LockdownDasBrettspiel\src\cards\images\default.jpg"
+         sodipodi:absref="D:\coden\GitHub\LockdownDasBrettspiel\src\cards\images\default.jpg"
          xlink:href="images/default.jpg"
          inkscape:svg-dpi="1"
          inkscape:label="taskimage"
@@ -3006,11 +3012,11 @@
       <rect
          style="display:inline;fill:url(#event_fg);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.01;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
          id="evbleed-2"
-         width="136.95001"
-         height="99.021347"
-         x="-241.9548"
-         y="94.784637"
-         ry="2.0718142e-06"
+         width="135"
+         height="97"
+         x="-240.9798"
+         y="95.795311"
+         ry="2.0295217e-06"
          inkscape:label="evbleed"
          transform="rotate(-90)" />
       <rect
@@ -3021,7 +3027,7 @@
          x="99.997337"
          y="110.00408" />
       <image
-         sodipodi:absref="D:\coden\LockdownDasBrettspiel\src\cards\images\default.jpg"
+         sodipodi:absref="D:\coden\GitHub\LockdownDasBrettspiel\src\cards\images\default.jpg"
          xlink:href="images/default.jpg"
          inkscape:svg-dpi="1"
          inkscape:label="vaccineimage"
@@ -3144,11 +3150,11 @@
       <rect
          style="display:inline;fill:url(#event_fg);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.01;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
          id="evbleed"
-         width="136.95001"
-         height="99.021347"
-         x="-241.9548"
-         y="94.784637"
-         ry="2.0718142e-06"
+         width="135"
+         height="97"
+         x="-240.9798"
+         y="95.795311"
+         ry="2.0295217e-06"
          inkscape:label="evbleed"
          transform="rotate(-90)" />
       <rect
@@ -3159,7 +3165,7 @@
          x="99.997337"
          y="110.00408" />
       <image
-         sodipodi:absref="D:\coden\LockdownDasBrettspiel\src\cards\images\default.jpg"
+         sodipodi:absref="D:\coden\GitHub\LockdownDasBrettspiel\src\cards\images\default.jpg"
          xlink:href="images/default.jpg"
          inkscape:svg-dpi="1"
          inkscape:label="eventimage"
@@ -3283,11 +3289,11 @@
       <rect
          style="display:inline;fill:url(#breakdown_fg);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.01;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
          id="evbleed-5"
-         width="136.95001"
-         height="99.021347"
-         x="-241.9548"
-         y="94.784637"
-         ry="2.0718142e-06"
+         width="135"
+         height="97"
+         x="-240.9798"
+         y="95.795311"
+         ry="2.0295217e-06"
          inkscape:label="evbleed"
          transform="rotate(-90)" />
       <rect
@@ -3298,7 +3304,7 @@
          x="99.997337"
          y="110.00408" />
       <image
-         sodipodi:absref="D:\coden\LockdownDasBrettspiel\src\cards\images\default.jpg"
+         sodipodi:absref="D:\coden\GitHub\LockdownDasBrettspiel\src\cards\images\default.jpg"
          xlink:href="images/default.jpg"
          inkscape:svg-dpi="1"
          inkscape:label="breakdownimage"
@@ -3418,14 +3424,15 @@
      inkscape:label="Spieler"
      style="display:none">
     <g
-       id="g1360">
+       id="g1360"
+       transform="rotate(90,73.478487,154.51546)">
       <rect
          style="display:inline;fill:url(#player_fg);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.01;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
          id="rect8146"
-         width="136.95"
-         height="99.021347"
-         x="5.0034881"
-         y="105.00479"
+         width="135"
+         height="97"
+         x="5.9784865"
+         y="106.01546"
          inkscape:label="bleed" />
       <rect
          style="display:inline;vector-effect:none;fill:url(#linearGradient8324);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
@@ -3436,7 +3443,7 @@
          y="10.007388"
          transform="rotate(-90)" />
       <image
-         sodipodi:absref="D:\coden\LockdownDasBrettspiel\src\cards\images\default-upright.jpg"
+         sodipodi:absref="D:\coden\GitHub\LockdownDasBrettspiel\src\cards\images\default-upright.jpg"
          xlink:href="images/default-upright.jpg"
          inkscape:svg-dpi="1"
          inkscape:label="playerimage"
@@ -3642,14 +3649,14 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.81px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB';text-align:start;text-anchor:start;fill:url(#player_fg_text);fill-opacity:1;stroke-width:0.264583px">playertopic</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:124%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect11041);display:inline;fill:url(#linearGradient8318);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;line-height:124%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect11041);display:inline;fill:url(#linearGradient12205);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
          x="102.3735"
          y="129.36951"
          id="playertext"
          transform="translate(-0.37416202,0.74973587)"><tspan
            x="12.501953"
            y="130.36338"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:Calibri;-inkscape-font-specification:Calibri;text-align:start;text-anchor:start;fill-opacity:1;stroke-width:0.264583px">Playertext</tspan></tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:Calibri;-inkscape-font-specification:Calibri;text-align:start;text-anchor:start;fill:url(#linearGradient12205);fill-opacity:1;stroke-width:0.264583px">Playertext</tspan></tspan></text>
       <rect
          style="display:inline;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.64351;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
          id="rect11041"
@@ -3679,10 +3686,10 @@
          id="playertopicback"
          y="109.99195"
          x="-154.81343"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.2498px;line-height:124%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:url(#linearGradient8310);fill-opacity:1;stroke:none;stroke-width:0.333638px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.2498px;line-height:124%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:url(#linearGradient12207);fill-opacity:1;stroke:none;stroke-width:0.333638px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"
          transform="rotate(-90)"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.2498px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold';text-align:center;text-anchor:middle;fill:url(#linearGradient8310);fill-opacity:1;stroke-width:0.333638px"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16.2498px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold';text-align:center;text-anchor:middle;fill:url(#linearGradient12207);fill-opacity:1;stroke-width:0.333638px"
            y="109.99195"
            x="-154.81343"
            id="tspan1617"
@@ -3703,42 +3710,43 @@
      inkscape:label="Measure"
      style="display:none">
     <g
-       id="g54078">
+       id="g54078"
+       transform="rotate(90,73.478486,154.51546)">
       <rect
          style="fill:url(#measure_4_fg);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.01;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
          id="mlbleed-4"
-         width="136.95"
-         height="99.021347"
-         x="5.0034871"
-         y="105.00479"
-         ry="2.0718139e-06"
+         width="135"
+         height="97"
+         x="5.9784856"
+         y="106.01546"
+         ry="2.0295215e-06"
          inkscape:label="mlbleed-4" />
       <rect
          style="fill:url(#measure_3_fg);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.01;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
          id="mlbleed-3"
-         width="136.95"
-         height="99.021347"
-         x="5.0034871"
-         y="105.00479"
-         ry="2.0718139e-06"
+         width="135"
+         height="97"
+         x="5.9784856"
+         y="106.01546"
+         ry="2.0295215e-06"
          inkscape:label="mlbleed-3" />
       <rect
          style="display:inline;fill:url(#measure_2_fg);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.01;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
          id="mlbleed-2"
-         width="136.95"
-         height="99.021347"
-         x="5.0034871"
-         y="105.00479"
-         ry="2.0718139e-06"
+         width="135"
+         height="97"
+         x="5.9784856"
+         y="106.01546"
+         ry="2.0295215e-06"
          inkscape:label="mlbleed-2" />
       <rect
          style="display:inline;fill:url(#measure_1_fg);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.01;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;paint-order:markers fill stroke"
          id="mlbleed-1"
-         width="136.95"
-         height="99.021347"
-         x="5.0034871"
-         y="105.00479"
-         ry="2.0718139e-06"
+         width="135"
+         height="97"
+         x="5.9784856"
+         y="106.01546"
+         ry="2.0295215e-06"
          inkscape:label="mlbleed-1" />
       <rect
          style="display:inline;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
@@ -3750,7 +3758,7 @@
          transform="rotate(-90)"
          inkscape:label="measure" />
       <image
-         sodipodi:absref="D:\coden\LockdownDasBrettspiel\src\cards\images\default.jpg"
+         sodipodi:absref="D:\coden\GitHub\LockdownDasBrettspiel\src\cards\images\default.jpg"
          xlink:href="images/default.jpg"
          inkscape:svg-dpi="1"
          inkscape:label="measureimage"
@@ -3837,9 +3845,9 @@
            id="ml4-level"
            y="122.3401"
            x="63.733257"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.16px;line-height:124%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:url(#linearGradient8294);fill-opacity:1;stroke:none;stroke-width:0.333638px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.16px;line-height:124%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:url(#linearGradient12191);fill-opacity:1;stroke:none;stroke-width:0.333638px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            xml:space="preserve"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.16px;font-family:Alef;-inkscape-font-specification:'Alef Bold';text-align:start;text-anchor:start;fill:url(#linearGradient8294);fill-opacity:1;stroke-width:0.333638px"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.16px;font-family:Alef;-inkscape-font-specification:'Alef Bold';text-align:start;text-anchor:start;fill:url(#linearGradient12191);fill-opacity:1;stroke-width:0.333638px"
              y="122.3401"
              x="63.733257"
              id="tspan53945"
@@ -3922,9 +3930,9 @@
            id="ml3-level"
            y="122.3401"
            x="64.343506"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.16px;line-height:124%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:url(#linearGradient8280);fill-opacity:1;stroke:none;stroke-width:0.333638px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.16px;line-height:124%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:url(#linearGradient12193);fill-opacity:1;stroke:none;stroke-width:0.333638px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            xml:space="preserve"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.16px;font-family:Alef;-inkscape-font-specification:'Alef Bold';text-align:start;text-anchor:start;fill:url(#linearGradient8280);fill-opacity:1;stroke-width:0.333638px"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.16px;font-family:Alef;-inkscape-font-specification:'Alef Bold';text-align:start;text-anchor:start;fill:url(#linearGradient12193);fill-opacity:1;stroke-width:0.333638px"
              y="122.3401"
              x="64.343506"
              id="tspan53941"
@@ -4007,9 +4015,9 @@
            id="ml2-level"
            y="122.86927"
            x="64.343506"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.16px;line-height:124%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:url(#linearGradient8266);fill-opacity:1;stroke:none;stroke-width:0.333638px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.16px;line-height:124%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:url(#linearGradient12195);fill-opacity:1;stroke:none;stroke-width:0.333638px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            xml:space="preserve"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.16px;font-family:Alef;-inkscape-font-specification:'Alef Bold';text-align:start;text-anchor:start;fill:url(#linearGradient8266);fill-opacity:1;stroke-width:0.333638px"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.16px;font-family:Alef;-inkscape-font-specification:'Alef Bold';text-align:start;text-anchor:start;fill:url(#linearGradient12195);fill-opacity:1;stroke-width:0.333638px"
              y="122.86927"
              x="64.343506"
              id="tspan53937"
@@ -4097,9 +4105,9 @@
            id="ml1-level"
            y="122.3401"
            x="65.039101"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.16px;line-height:124%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:url(#linearGradient8234);fill-opacity:1;stroke:none;stroke-width:0.333638px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.16px;line-height:124%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:url(#linearGradient12197);fill-opacity:1;stroke:none;stroke-width:0.333638px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
            xml:space="preserve"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.16px;font-family:Alef;-inkscape-font-specification:'Alef Bold';text-align:start;text-anchor:start;fill:url(#linearGradient8234);fill-opacity:1;stroke-width:0.333638px"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.16px;font-family:Alef;-inkscape-font-specification:'Alef Bold';text-align:start;text-anchor:start;fill:url(#linearGradient12197);fill-opacity:1;stroke-width:0.333638px"
              y="122.3401"
              x="65.039101"
              id="tspan29308"
@@ -4119,16 +4127,16 @@
          id="measuretitle2"
          y="127.1026"
          x="12.122389"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:124%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:url(#linearGradient8254);fill-opacity:1;stroke:none;stroke-width:0.333638px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:124%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:url(#linearGradient12199);fill-opacity:1;stroke:none;stroke-width:0.333638px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold';text-align:start;text-anchor:start;fill:url(#linearGradient8254);fill-opacity:1;stroke-width:0.333638px"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold';text-align:start;text-anchor:start;fill:url(#linearGradient12199);fill-opacity:1;stroke-width:0.333638px"
            y="127.1026"
            x="12.122389"
            id="tspan51549"
            sodipodi:role="line">Measuretitle</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.81px;line-height:105%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect54046);display:inline;fill:url(#linearGradient8260);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.81px;line-height:105%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;white-space:pre;shape-inside:url(#rect54046);display:inline;fill:url(#linearGradient12201);fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
          x="125.19833"
          y="362.91623"
          id="measuretext"
@@ -4136,15 +4144,15 @@
          transform="translate(-0.38885019,-1.6663719)"><tspan
            x="12.501953"
            y="134.50084"><tspan
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.81px;font-family:Calibri;-inkscape-font-specification:Calibri;text-align:start;text-anchor:start;fill-opacity:1;stroke-width:0.264583px">Measuretext</tspan></tspan></text>
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.81px;font-family:Calibri;-inkscape-font-specification:Calibri;text-align:start;text-anchor:start;fill:url(#linearGradient12201);fill-opacity:1;stroke-width:0.264583px">Measuretext</tspan></tspan></text>
       <text
          inkscape:label="measuretitle"
          id="measuretitle"
          y="119.1651"
          x="12.122389"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:124%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:url(#linearGradient8248);fill-opacity:1;stroke:none;stroke-width:0.333638px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.46667px;line-height:124%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:url(#linearGradient12203);fill-opacity:1;stroke:none;stroke-width:0.333638px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold';text-align:start;text-anchor:start;fill:url(#linearGradient8248);fill-opacity:1;stroke-width:0.333638px"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold';text-align:start;text-anchor:start;fill:url(#linearGradient12203);fill-opacity:1;stroke-width:0.333638px"
            y="119.1651"
            x="12.122389"
            id="tspan29255"
