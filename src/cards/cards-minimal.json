@@ -1,0 +1,142 @@
+{
+	"vaccine": [{
+			"title": "Phase-2-Studie",
+			"blurb": "... abgeschlossen!",
+			"image": "vaccine-syringe.jpg",
+			"text": "Ein vielversprechender Impfstoff wird entwickelt. \n\nJeder Spieler erhält für jeweils 3 🧠/❤/₤ einen 🏆.\n\nJeder Spieler erhält danach 1🧠 oder 1❤."
+		}
+	],
+
+	"task": [{
+			"title": "Arbeit",
+			"blurb": "Geht's der Wirtschaft gut ...",
+			"kid": "n",
+			"wifi": "n",
+			"subA": {
+				"border": "y",
+				"text": "Besuche deinen Arbeitsplatz",
+				"icon": "money",
+				"cost": "+5"
+			},
+			"subB": {
+				"border": "n",
+				"text": "Kehre heim",
+				"icon": "victory",
+				"cost": "+1"
+			},
+			"image": "task-work.jpg"
+		}, {
+			"title": "Arbeit",
+			"blurb": "Was für ein Tag!",
+			"kid": "n",
+			"wifi": "n",
+			"subA": {
+				"border": "y",
+				"text": "Besuche deinen Arbeitsplatz",
+				"icon": "money",
+				"cost": "+5",
+				"secondary": {
+					"icon": "sanity",
+					"cost": -1
+				}
+			},
+			"subB": {
+				"border": "n",
+				"text": "Kehre heim",
+				"icon": "victory",
+				"cost": "+2"
+			},
+			"image": "task-work.jpg"
+		}, {
+			"title": "Onlineshopping",
+			"blurb": "Lieferverzögerung zur Primetime!",
+			"kid": "n",
+			"wifi": "y",
+			"subA": {
+				"border": "y",
+				"text": "Bestelle von Zuhause aus",
+				"icon": "money",
+				"cost": "-2",
+				"secondary": {
+					"icon": "sanity",
+					"cost": 1
+				}
+			},
+			"subB": {
+				"border": "y",
+				"text": "Warte zu Hause auf das Paket",
+				"icon": "n",
+				"cost": ""
+			},
+			"subC": {
+				"border": "n",
+				"text": "Warte noch länger",
+				"icon": "victory",
+				"cost": "+3"
+			},
+			"image": "task-online-shopping.jpg"
+		}
+
+	],
+
+	"player": [{
+			"topic": "Arbeitsplatz",
+			"title": "Schule",
+			"image": "player-teacher.jpg",
+			"text": "Du bist LehrerIn.\n\nIst die Schule geschlossen, kannst du von Zuhause aus arbeiten.\n\nDu kannst dafür im Schritt /Aufgabenteil erledigen/ einen Aufgabenmarker auf die /Arbeit/-Karte legen, wenn du zuhause bist und das Internet funktioniert.",
+			"wifi": "y",
+			"kid": ""
+		}, {
+			"topic": "Bonus",
+			"title": "Kinderlos",
+			"image": "",
+			"text": "Du kannst keine Aufgaben mit Kinder-Symbol erfüllen, dafür wirkt sich die Maßnahme /Schule geschlossen/ nicht auf deine 🧠 aus.",
+			"wifi": "",
+			"kid": "y"
+		}
+	],
+
+	"measure": [{
+			"level": 1,
+			"image": "measure-mask.jpg",
+			"title": "Maskenpflicht",
+			"subtitle": "in Gebäuden",
+			"text": "Bereits anwesende Personen beim Betreten eines Gebäudes erhöhen nicht mehr die Infektionszahl."
+		}, {
+			"level": 2,
+			"image": "measure-closed-1.jpg",
+			"title": "Friseur",
+			"subtitle": "geschlossen",
+			"text": "Der Friseursalon kann nicht mehr betreten werden."
+		}, {
+			"level": 3,
+			"image": "measure-closed-1.jpg",
+			"title": "Öffentlicher Verkehr",
+			"subtitle": "eingestellt",
+			"text": "Der öffentliche Verkehr kann nicht mehr betreten werden."
+		}, {
+			"level": 4,
+			"image": "measure-lockdown.jpg",
+			"title": "Lockdown!",
+			"subtitle": "",
+			"text": "Liegen keine Aufgaben aus, endet das Spiel sofort!\n\nFür jede ausliegende Aufgabe wird die Infektionszahl um 1 reduziert, Maßnahmen zurückgenommen. \n\nAlle Aufgaben wie in Schritt 3 abwerfen. \n\nAusliegende Ereignisse und Ereignismarker entfernen.\n\nJeder wird auf seine Wohnung zurückgesetzt, verliert 1 ❤ od. 🧠."
+		}
+	],
+
+	"breakdown": [{
+			"title": "Depression",
+			"blurb": "Nimm dir diese Karte, wenn deine 🧠 auf 0 fällt.",
+			"image": "event-frustration.jpg",
+			"text": "Du darfst maximal 2 Aufgabenkarten ausliegen haben und musst alle darüberhinausgehenden kostenlos abwerfen. Du kannst in Schritt 3 beliebig viele unerledigte Aufgaben kostenlos abwerfen.\nSobald deine 🧠 wieder 1 erreicht hat, erhältst du ein zweites 🧠 dazu und wirfst diese Karte ab."
+		}
+	],
+
+	"event": [{
+			"title": "Überlastung",
+			"blurb": "Die Krankenhäuser sind überfüllt!",
+			"image": "event-hospital-full.jpg",
+			"text": "Im Krankenhaus können keine Aufgaben mehr erfüllt werden (Ausnahme: /Krankheit/).\n\nBleibt ausliegen, bis eine Maßnahme zurückgenommen wird."
+		}
+	]
+
+}

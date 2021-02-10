@@ -3,27 +3,41 @@
 ## Bauanleitung
 
 (Fast) alles, was man braucht, um zu spielen, liegt im Verzeichnis `target`.  
-Neben etwas A4-Papier, Klebstoff und Karton benötigt man nur noch Sleeves für die Karten, Halmakegel und kleine Chips.  
+Neben etwas A4-Papier, Klebstoff und Karton benötigt man nur noch Sleeves, falls man die Karten auf Papier statt Karton druckt, Halmakegel und kleine Chips.  
 Ein 3D-Drucker sorgt für ein etwas haptischeres Spielerlebnis, ist aber nicht notwendig. Ein Drucker, der auch A3 drucken kann, spart Klebstoff beim Spielbrett.  
 Wie das Spielmaterial fertig gebastelt aussieht, zeigen die Fotos in der Spielanleitung.  
 
  * Spielregeln.pdf - Die Spielanleitung.
  * playmat.pdf - Einmal pro Spieler ausdrucken.
- * Karten
-   * cards-foldable.pdf - Ausdrucken, an den grauen Linien ausschneiden, falten und in [passende Sleeves](https://www.amazon.de/gp/product/B017BRXU1A/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1) stecken.
+ * Karten - 2 Varianten zur Auswahl:
+   * cards-foldable.pdf - Einseitig auf Papier ausdrucken, an den grauen Linien ausschneiden, falten und in [passende Sleeves](https://www.amazon.de/gp/product/B017BRXU1A/ref=ppx_yo_dt_b_asin_title_o04_s00?ie=UTF8&psc=1) stecken.
+   * cards-double-sided.pdf - Doppelseitig auf Karton ausdrucken, an den grauen Linien ausschneiden.
  * Spielplan
    * board-separate\infection-track.pdf - Ausdrucken, passend zusammenkleben, zurechtschneiden.
    * board-separate\board-isometric.pdf - Das einzige A3-PDF. Auf A3 drucken, oder auf A4 und passend zusammenkleben.
    * tiles-isometric.pdf - Ausdrucken und auf festen Karton aufkleben. An den grauen Linien die 16 Plättchen des Stadtplans ausschneiden.
- * Spielfiguren
+ * Spielfiguren: auch 2 Varianten zur Auswahl:
    * markers\3dprint - Spielfiguren/Marker zum 3D-drucken. Benötigt wird 1x virus.stl, und für n Spieler 3n+1 (brain.stl, heart.stl, task.stl) und ca. 10n coin.stl.
    * markers\2dprint.pdf - Alternative zum 3D-Druck: Ausdrucken, auf Karton kleben und ausschneiden. Sollte mehr als genug Marker für 6 Spieler enthalten.
    * Darüberhinaus braucht man für jeden Spieler noch zwei Halmakegel sowie ca. ein halbes Dutzend kleine Chips (Flohhüpf-Plättchen funktionieren gut) gleicher Farbe.
 
 ## Karten
 
-Die Karten sind mit [countersheetextension](https://github.com/lifelike/countersheetsextension) für [Inkscape](https://inkscape.org/de/) gebaut. Die Bilder liegen in src\cards\images - Image Path entsprechend einstellen. "Full Registration Marks" und 5mm Bleed.  
-cards-foldable.svg ist für einseitigen Druck auf regulärem Papier gedacht; das Ganze für doppelseitigen Druck auf Karton zu remixen sollte kein großes Problem sein - dann würde man sich auch die Sleeves sparen können.
+Die Karten sind mit [countersheetextension](https://github.com/lifelike/countersheetsextension) für [Inkscape](https://inkscape.org/de/) gebaut. 
+Die Rohdaten liegen in cards.json; ein kleines Sample zu Testzwecken, das möglichst alle Features der Templates abdeckt, in cards-minimal.json.
+Countersheetextension benötigt die Inputdaten als CSV, generate.bat erzeugt diese (dazu benötigt man Python und chevron, letzteres lässt sich per `python -m pip install chevron` installieren):
+
+	cards.json + cards-double-sided.mustache => cards-double-sided.generated.csv
+	cards.json + cards-foldable.mustache => cards-foldable.generated.csv
+	cards-minimal.json + cards-double-sided.mustache => cards-double-sided-minimal.generated.csv
+	cards-minimal.json + cards-foldable.mustache => cards-foldable-minimal.generated.csv
+
+Das entsprechende svg-template in Inkscape öffnen, und unter "Erweiterungen" -> "Boardgames" -> "countersheet" wählen.
+Das passende generierte CSV auswählen, den images-Ordner src\cards\images auswählen, die Layoutoptionen auf "Full Registration Marks" und 5mm / 10mm / 5mm Bleed einstellen.
+PDF-Output in ein passendes Verzeichnis einstellen und generieren. Dies erzeugt ein PDF pro Seite, zusammenfassen zb. mit NAPS2.
+
+	cards-double-sided.generated.csv + cards-double-sided.svg => Für den doppelseitigen Ausdruck auf Karton.
+	cards-foldable.generated.csv + cards-foldable.svg => Für den einseitigen Ausdruck auf Papier, zum falten und sleeven.
 
 ## Lizenz und Quellen
 

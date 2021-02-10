@@ -1,0 +1,1361 @@
+{
+	"vaccine": [{
+			"title": "Phase-2-Studie",
+			"blurb": "... abgeschlossen!",
+			"image": "vaccine-syringe.jpg",
+			"text": "Ein vielversprechender Impfstoff wird entwickelt. \n\nJeder Spieler erhält für jeweils 3 🧠/❤/₤ einen 🏆.\n\nJeder Spieler erhält danach 1🧠 oder 1❤."
+		}, {
+			"title": "Seuchenampel",
+			"blurb": "... darum lieb' ich alles was so grün ist ...",
+			"image": "vaccine-trafficlights.jpg",
+			"text": "Eine Strategie wird vorgestellt. \nLegt auf alle freien Felder des Maßnahmenbretts eine passende Maßnahmenkarte.\nJeder Spieler kann eine ausliegende Aufgabe abschließen."
+		}, {
+			"title": "Phase-3-Studie",
+			"blurb": "... abgeschlossen!",
+			"image": "vaccine-syringe.jpg",
+			"text": "Eine Impfung ist in Aussicht! \n\nJeder Spieler erhält für jeweils 3 🧠/❤/₤ einen 🏆.\n\nJeder Spieler erhält danach 1🧠 oder 1❤."
+		}, {
+			"title": "Massenimpfung",
+			"blurb": "Jetzt ists überstanden!",
+			"image": "vaccine-syringe.jpg",
+			"text": "Der Spieler, der diese Karte zieht, spielt seinen Zug noch zu Ende.\nDanach sind alle anderen Spieler noch einmal am Zug."
+		}
+	],
+
+	"task": [{
+			"count": 8,
+			"title": "Arbeit",
+			"blurb": "Geht's der Wirtschaft gut ...",
+			"kid": "n",
+			"wifi": "n",
+			"subA": {
+				"border": "y",
+				"text": "Besuche deinen Arbeitsplatz",
+				"icon": "money",
+				"cost": "+5"
+			},
+			"subB": {
+				"border": "n",
+				"text": "Kehre heim",
+				"icon": "victory",
+				"cost": "+1"
+			},
+			"image": "task-work.jpg"
+		}, {
+			"count": 4,
+			"title": "Arbeit",
+			"blurb": "Was für ein Tag!",
+			"kid": "n",
+			"wifi": "n",
+			"subA": {
+				"border": "y",
+				"text": "Besuche deinen Arbeitsplatz",
+				"icon": "money",
+				"cost": "+5",
+				"secondary": {
+					"icon": "sanity",
+					"cost": -1
+				}
+			},
+			"subB": {
+				"border": "n",
+				"text": "Kehre heim",
+				"icon": "victory",
+				"cost": "+2"
+			},
+			"image": "task-work.jpg"
+		}, {
+			"count": 4,
+			"title": "Arbeit",
+			"blurb": "Überstunden!",
+			"kid": "n",
+			"wifi": "n",
+			"subA": {
+				"border": "y",
+				"text": "Besuche deinen Arbeitsplatz",
+				"icon": "sanity",
+				"cost": "-1",
+				"secondary": {
+					"icon": "health",
+					"cost": -1
+				}
+			},
+			"subB": {
+				"border": "y",
+				"text": "Bleib dort",
+				"icon": "money",
+				"cost": "+6"
+			},
+			"subC": {
+				"border": "n",
+				"text": "Kehre heim",
+				"icon": "victory",
+				"cost": "+2"
+			},
+			"image": "task-work.jpg"
+		}, {
+			"count": 4,
+			"title": "Arztbesuch",
+			"blurb": "Oh Schmerz, Oh Pein!",
+			"kid": "n",
+			"wifi": "n",
+			"subA": {
+				"border": "y",
+				"text": "Besuche Arzt oder Krankenhaus",
+				"icon": "health",
+				"cost": ">=3"
+			},
+			"subB": {
+				"border": "n",
+				"text": "Besuche die Apotheke",
+				"icon": "victory",
+				"cost": "+1"
+			},
+			"image": "task-doctor.jpg"
+		}, {
+			"count": 2,
+			"title": "Kinderarzt",
+			"blurb": "",
+			"kid": "y",
+			"wifi": "n",
+			"subA": {
+				"border": "y",
+				"text": "Besuche Arzt oder Krankenhaus",
+				"icon": "sanity",
+				"cost": "-1"
+			},
+			"subB": {
+				"border": "n",
+				"text": "Besuche die Apotheke",
+				"icon": "victory",
+				"cost": "+2"
+			},
+			"image": "task-doctor.jpg"
+		}, {
+			"count": 2,
+			"title": "Krankenbesuch",
+			"blurb": "Du hast die Blumen vergessen!",
+			"kid": "n",
+			"wifi": "n",
+			"subA": {
+				"border": "n",
+				"text": "Besuche das Krankenhaus",
+				"icon": "sanity",
+				"cost": "-1",
+				"secondary": {
+					"icon": "victory",
+					"cost": 1
+				}
+			},
+			"image": "task-hospital-visit.jpg"
+		}, {
+			"count": 2,
+			"title": "Krankenbesuch",
+			"blurb": "",
+			"kid": "n",
+			"wifi": "n",
+			"subA": {
+				"border": "y",
+				"text": "Hol Blumen im Supermarkt oder Einkaufszentrum",
+				"icon": "money",
+				"cost": "-1"
+			},
+			"subB": {
+				"border": "n",
+				"text": "Besuche das Krankenhaus",
+				"icon": "victory",
+				"cost": "+2"
+			},
+			"image": "task-hospital-visit.jpg"
+		}, {
+			"count": 4,
+			"title": "Kaufrausch",
+			"blurb": "... geht's uns allen gut!",
+			"kid": "n",
+			"wifi": "n",
+			"subA": {
+				"border": "y",
+				"text": "Besuche das Einkaufszentrum",
+				"icon": "money",
+				"cost": "-2",
+				"secondary": {
+					"icon": "sanity",
+					"cost": 1
+				}
+			},
+			"subB": {
+				"border": "n",
+				"text": "Bring deine Schätze heim",
+				"icon": "victory",
+				"cost": "+2"
+			},
+
+			"image": "task-shopping.jpg"
+		}, {
+			"count": 4,
+			"title": "Kaufrausch",
+			"blurb": "Odyssee durch die Mall",
+			"kid": "n",
+			"wifi": "n",
+			"subA": {
+				"border": "y",
+				"text": "Besuche das Einkaufszentrum",
+				"icon": "money",
+				"cost": "-2"
+			},
+
+			"subB": {
+				"border": "y",
+				"text": "Bleib dort",
+				"icon": "sanity",
+				"cost": "+1"
+			},
+			"subC": {
+				"border": "n",
+				"text": "Bring deine Schätze heim",
+				"icon": "victory",
+				"cost": "+3"
+			},
+			"image": "task-shopping.jpg"
+		}, {
+			"count": 4,
+			"title": "Onlineshopping",
+			"blurb": "Durchs wilde Amazonien",
+			"kid": "n",
+			"wifi": "y",
+			"subA": {
+				"border": "y",
+				"text": "Bestelle von Zuhause aus",
+				"icon": "money",
+				"cost": "-2",
+				"secondary": {
+					"icon": "sanity",
+					"cost": 1
+				}
+			},
+			"subB": {
+				"border": "n",
+				"text": "Warte zu Hause auf das Paket",
+				"icon": "victory",
+				"cost": "+2"
+			},
+
+			"image": "task-online-shopping.jpg"
+		}, {
+			"count": 2,
+			"title": "Onlineshopping",
+			"blurb": "Lieferverzögerung zur Primetime!",
+			"kid": "n",
+			"wifi": "y",
+			"subA": {
+				"border": "y",
+				"text": "Bestelle von Zuhause aus",
+				"icon": "money",
+				"cost": "-2",
+				"secondary": {
+					"icon": "sanity",
+					"cost": 1
+				}
+			},
+			"subB": {
+				"border": "y",
+				"text": "Warte zu Hause auf das Paket",
+				"icon": "n",
+				"cost": ""
+			},
+			"subC": {
+				"border": "n",
+				"text": "Warte noch länger",
+				"icon": "victory",
+				"cost": "+3"
+			},
+			"image": "task-online-shopping.jpg"
+		}, {
+			"count": 4,
+			"title": "Einkauf",
+			"blurb": "Ohne Mampf kein Kampf!",
+			"kid": "n",
+			"wifi": "n",
+			"subA": {
+				"border": "y",
+				"text": "Besuche den Supermarkt",
+				"icon": "money",
+				"cost": "-1"
+			},
+
+			"subB": {
+				"border": "n",
+				"text": "Kehre heim",
+				"icon": "victory",
+				"cost": "+1"
+			},
+
+			"image": "task-groceries.jpg"
+		}, {
+			"count": 2,
+			"title": "Einkauf",
+			"blurb": "Hamsterkauf!",
+			"kid": "n",
+			"wifi": "n",
+			"subA": {
+				"border": "y",
+				"text": "Besuche den Supermarkt",
+				"icon": "money",
+				"cost": "-2",
+				"secondary": {
+					"icon": "sanity",
+					"cost": -1
+				}
+			},
+			"subB": {
+				"border": "n",
+				"text": "Kehre heim",
+				"icon": "victory",
+				"cost": "+2"
+			},
+
+			"image": "task-groceries.jpg"
+		}, {
+			"count": 2,
+			"title": "Einkauf",
+			"blurb": "Wer hat Steine eingepackt?",
+			"kid": "n",
+			"wifi": "n",
+			"subA": {
+				"border": "y",
+				"text": "Besuche den Supermarkt",
+				"icon": "money",
+				"cost": "-2",
+				"secondary": {
+					"icon": "health",
+					"cost": -1
+				}
+			},
+			"subB": {
+				"border": "n",
+				"text": "Kehre heim",
+				"icon": "victory",
+				"cost": "+2"
+			},
+
+			"image": "task-groceries.jpg"
+		}, {
+			"count": 2,
+			"title": "Einkauf",
+			"blurb": "Zweite Kassa bitte!",
+			"kid": "n",
+			"wifi": "n",
+			"subA": {
+				"border": "y",
+				"text": "Besuche den Supermarkt",
+				"icon": "money",
+				"cost": "-2"
+			},
+
+			"subB": {
+				"border": "y",
+				"text": "Bleib dort",
+				"icon": "sanity",
+				"cost": "-1"
+			},
+			"subC": {
+				"border": "n",
+				"text": "Kehre heim",
+				"icon": "victory",
+				"cost": "+3"
+			},
+			"image": "task-groceries.jpg"
+		}, {
+			"count": 2,
+			"title": "Schülertaxi",
+			"blurb": "Nicht für das Leben, ...",
+			"kid": "y",
+			"wifi": "n",
+			"subA": {
+				"border": "y",
+				"text": "Besuche deinen Wohnort",
+				"icon": "",
+				"cost": ""
+			},
+
+			"subB": {
+				"border": "n",
+				"text": "Besuche die Schule",
+				"icon": "victory",
+				"cost": "+1"
+			},
+
+			"image": "task-school.jpg"
+		}, {
+			"count": 2,
+			"title": "Schülertaxi",
+			"blurb": "... lernen wir!",
+			"kid": "y",
+			"wifi": "n",
+			"subA": {
+				"border": "y",
+				"text": "Besuche die Schule",
+				"icon": "",
+				"cost": ""
+			},
+
+			"subB": {
+				"border": "n",
+				"text": "Kehre heim",
+				"icon": "victory",
+				"cost": "+1"
+			},
+
+			"image": "task-school.jpg"
+		}, {
+			"count": 2,
+			"title": "Freunde besuchen",
+			"blurb": "Hin ...",
+			"kid": "n",
+			"wifi": "n",
+			"subA": {
+				"border": "y",
+				"text": "Besuche deinen Wohnort",
+				"icon": "",
+				"cost": ""
+			},
+
+			"subB": {
+				"border": "n",
+				"text": "Besuche das andere Wohngebäude",
+				"icon": "victory",
+				"cost": "+1"
+			},
+
+			"image": "task-friends.jpg"
+		}, {
+			"count": 2,
+			"title": "Freunde besuchen",
+			"blurb": "... und wieder zurück",
+			"kid": "n",
+			"wifi": "n",
+			"subA": {
+				"border": "y",
+				"text": "Besuche das andere Wohngebäude",
+				"icon": "",
+				"cost": ""
+			},
+
+			"subB": {
+				"border": "n",
+				"text": "Kehre heim",
+				"icon": "victory",
+				"cost": "+1"
+			},
+
+			"image": "task-friends.jpg"
+		}, {
+			"count": 2,
+			"title": "Spielgruppe",
+			"blurb": "Hin ...",
+			"kid": "y",
+			"wifi": "n",
+			"subA": {
+				"border": "y",
+				"text": "Besuche deinen Wohnort",
+				"icon": "",
+				"cost": ""
+			},
+
+			"subB": {
+				"border": "n",
+				"text": "Besuche das andere Wohngebäude",
+				"icon": "victory",
+				"cost": "+1"
+			},
+
+			"image": "task-playdate.jpg"
+		}, {
+			"count": 2,
+			"title": "Spielgruppe",
+			"blurb": "... und wieder zurück",
+			"kid": "y",
+			"wifi": "n",
+			"subA": {
+				"border": "y",
+				"text": "Besuche das andere Wohngebäude",
+				"icon": "",
+				"cost": ""
+			},
+
+			"subB": {
+				"border": "n",
+				"text": "Kehre heim",
+				"icon": "victory",
+				"cost": "+1"
+			},
+
+			"image": "task-playdate.jpg"
+		}, {
+			"count": 1,
+			"title": "Elternsprechtag",
+			"blurb": "Er hat /was/ gemacht?!",
+			"kid": "y",
+			"wifi": "n",
+			"subA": {
+				"border": "n",
+				"text": "Besuche die Schule",
+				"icon": "sanity",
+				"cost": "-1",
+				"secondary": {
+					"icon": "victory",
+					"cost": 1
+				}
+			},
+
+			"image": "task-teacher.jpg"
+		}, {
+			"count": 3,
+			"title": "Mittagessen",
+			"blurb": "",
+			"kid": "n",
+			"wifi": "n",
+			"subA": {
+				"border": "y",
+				"text": "Besuche das Restaurant",
+				"icon": "money",
+				"cost": "-1",
+				"secondary": {
+					"icon": "sanity",
+					"cost": 1
+				}
+			},
+			"subB": {
+				"border": "n",
+				"text": "Wohnort od. Arbeitsplatz",
+				"icon": "victory",
+				"cost": "+1"
+			},
+
+			"image": "task-dinner.jpg"
+		}, {
+			"count": 3,
+			"title": "Abendessen",
+			"blurb": "Muskatnuss, Herr Müller!",
+			"kid": "n",
+			"wifi": "n",
+			"subA": {
+				"border": "y",
+				"text": "Besuche das Restaurant",
+				"icon": "money",
+				"cost": "-2",
+				"secondary": {
+					"icon": "sanity",
+					"cost": 1
+				}
+			},
+			"subB": {
+				"border": "n",
+				"text": "Kehre heim",
+				"icon": "victory",
+				"cost": "+2"
+			},
+
+			"image": "task-dinner.jpg"
+		}, {
+			"count": 2,
+			"title": "Disconacht",
+			"blurb": "I'm up all night to get lucky!",
+			"kid": "n",
+			"wifi": "n",
+			"subA": {
+				"border": "n",
+				"text": "Besuche die Disco",
+				"icon": "money",
+				"cost": "-1",
+				"secondary": {
+					"icon": "sanity",
+					"cost": 1
+				}
+			},
+
+			"image": "task-club.jpg"
+		}, {
+			"count": 2,
+			"title": "Disconacht",
+			"blurb": "Livekonzert!",
+			"kid": "n",
+			"wifi": "n",
+			"subA": {
+				"border": "n",
+				"text": "Besuche die Disco",
+				"icon": "money",
+				"cost": "-2",
+				"secondary": {
+					"icon": "sanity",
+					"cost": 1
+				}
+			},
+			"subB": {
+				"border": "n",
+				"text": "Hör dir auch die Zugabe an",
+				"icon": "victory",
+				"cost": "+2"
+			},
+
+			"image": "task-concert.jpg"
+		}, {
+			"count": 2,
+			"title": "Kino",
+			"blurb": "Lei(n)wand!",
+			"kid": "n",
+			"wifi": "n",
+			"subA": {
+				"border": "n",
+				"text": "Besuche das Kino",
+				"icon": "money",
+				"cost": "-1",
+				"secondary": {
+					"icon": "sanity",
+					"cost": 1
+				}
+			},
+
+			"image": "task-cinema.jpg"
+		}, {
+			"count": 2,
+			"title": "Kino",
+			"blurb": "Science Fiction Double Feature",
+			"kid": "n",
+			"wifi": "n",
+			"subA": {
+				"border": "y",
+				"text": "Besuche das Kino",
+				"icon": "money",
+				"cost": "-2",
+				"secondary": {
+					"icon": "sanity",
+					"cost": 1
+				}
+			},
+			"subB": {
+				"border": "n",
+				"text": "Ein zweiter Film!",
+				"icon": "victory",
+				"cost": "+1"
+			},
+
+			"image": "task-cinema.jpg"
+		}, {
+			"count": 2,
+			"title": "Kino",
+			"blurb": "Familienfilm!",
+			"kid": "y",
+			"wifi": "n",
+			"subA": {
+				"border": "n",
+				"text": "Besuche das Kino",
+				"icon": "money",
+				"cost": "-1",
+				"secondary": {
+					"icon": "victory",
+					"cost": 1
+				}
+			},
+
+			"image": "task-cinema.jpg"
+		}, {
+			"count": 3,
+			"title": "Museum",
+			"blurb": "Ist das Kunst oder kann das weg?",
+			"kid": "n",
+			"wifi": "n",
+			"subA": {
+				"border": "n",
+				"text": "Besuche das Museum",
+				"icon": "money",
+				"cost": "-1",
+				"secondary": {
+					"icon": "sanity",
+					"cost": 1
+				}
+			},
+
+			"image": "task-museum.jpg"
+		}, {
+			"count": 3,
+			"title": "Museum",
+			"blurb": "Familienausflug!",
+			"kid": "y",
+			"wifi": "n",
+			"subA": {
+				"border": "n",
+				"text": "Besuche das Museum",
+				"icon": "money",
+				"cost": "-1",
+				"secondary": {
+					"icon": "victory",
+					"cost": 1
+				}
+			},
+
+			"image": "task-museum.jpg"
+		}, {
+			"count": 2,
+			"title": "Zocken",
+			"blurb": "Nein, /deine/ Mutter!",
+			"kid": "n",
+			"wifi": "y",
+			"subA": {
+				"border": "y",
+				"text": "Bleib zuhause",
+				"icon": "sanity",
+				"cost": "+1"
+			},
+
+			"subB": {
+				"border": "n",
+				"text": "... und noch /eine/ Runde!",
+				"icon": "victory",
+				"cost": "+1"
+			},
+
+			"image": "task-gaming.jpg"
+		}, {
+			"count": 2,
+			"title": "Cyberbier",
+			"blurb": "Du ruckelst - aber prost!",
+			"kid": "n",
+			"wifi": "y",
+			"subA": {
+				"border": "y",
+				"text": "Bleib zuhause",
+				"icon": "sanity",
+				"cost": "+1"
+			},
+
+			"subB": {
+				"border": "n",
+				"text": "... und noch ein Bier!",
+				"icon": "victory",
+				"cost": "+1"
+			},
+
+			"image": "task-cyber-beer.jpg"
+		}, {
+			"count": 2,
+			"title": "Onlinediskussion",
+			"blurb": "Facebook war ein Fehler",
+			"kid": "n",
+			"wifi": "y",
+			"subA": {
+				"border": "y",
+				"text": "Bleib zuhause",
+				"icon": "sanity",
+				"cost": "-1",
+				"secondary": {
+					"icon": "victory",
+					"cost": 1
+				}
+			},
+			"subB": {
+				"border": "n",
+				"text": "Beende die Schwurblerdemo",
+				"icon": "sanity",
+				"cost": "+1"
+			},
+
+			"image": "task-discussion.jpg"
+		}, {
+			"count": 6,
+			"title": "Sport",
+			"blurb": "Er is gesund und macht uns hoat!",
+			"kid": "n",
+			"wifi": "n",
+			"subA": {
+				"border": "n",
+				"text": "Besuche das Fitnesstudio",
+				"icon": "health",
+				"cost": "+1",
+				"secondary": {
+					"icon": "sanity",
+					"cost": 1
+				}
+			},
+
+			"image": "task-sport.jpg"
+		}, {
+			"count": 4,
+			"title": "Rückenfit",
+			"blurb": "Übungen für den Alltag.",
+			"kid": "n",
+			"wifi": "n",
+			"subA": {
+				"border": "n",
+				"text": "Besuche deinen Wohnort oder Arbeitsplatz",
+				"icon": "health",
+				"cost": "+1"
+			},
+
+			"image": "task-back-stretch.jpg"
+		}, {
+			"count": 4,
+			"title": "Bewegung",
+			"blurb": "Zehntausend Schritte.",
+			"kid": "n",
+			"wifi": "n",
+			"subA": {
+				"border": "n",
+				"text": "Bewege dich zu Fuß oder mit dem Fahrrad",
+				"icon": "health",
+				"cost": "+1"
+			},
+
+			"image": "task-walking.jpg"
+		}, {
+			"count": 2,
+			"title": "Netflix",
+			"blurb": " ... ohne Chill.",
+			"kid": "n",
+			"wifi": "y",
+			"subA": {
+				"border": "y",
+				"text": "Bleib zuhause",
+				"icon": "sanity",
+				"cost": "+1"
+			},
+
+			"subB": {
+				"border": "n",
+				"text": "... und noch /eine/ Folge!",
+				"icon": "victory",
+				"cost": "+1"
+			},
+
+			"image": "task-netflix.jpg"
+		}, {
+			"count": 4,
+			"title": "Friseurbesuch",
+			"blurb": "Ich hab' die Haare schön!",
+			"kid": "n",
+			"wifi": "n",
+			"subA": {
+				"border": "y",
+				"text": "Besuche den Friseur",
+				"icon": "money",
+				"cost": "-1",
+				"secondary": {
+					"icon": "sanity",
+					"cost": 1
+				}
+			},
+			"subB": {
+				"border": "n",
+				"text": "Besuche ein anderes Gebäude\n(nicht zuhause)",
+				"icon": "victory",
+				"cost": "+1"
+			},
+
+			"image": "task-haircut.jpg"
+		}
+
+	],
+
+	"player": [{
+			"count": 3,
+			"topic": "Wohnort",
+			"title": "Berggasse",
+			"image": "player-berggasse.jpg",
+			"text": "Dein Wohnort ist das Haus in der Berggasse.",
+			"wifi": "",
+			"kid": ""
+		}, {
+			"count": 3,
+			"topic": "Wohnort",
+			"title": "Hauptstraße",
+			"image": "player-hauptstrasse.jpg",
+			"text": "Dein Wohnort ist das Haus in der Hauptstraße.",
+			"wifi": "",
+			"kid": ""
+		}, {
+			"topic": "Arbeitsplatz",
+			"title": "Schule",
+			"image": "player-teacher.jpg",
+			"text": "Du bist LehrerIn.\n\nIst die Schule geschlossen, kannst du von Zuhause aus arbeiten.\n\nDu kannst dafür im Schritt /Aufgabenteil erledigen/ einen Aufgabenmarker auf die /Arbeit/-Karte legen, wenn du zuhause bist und das Internet funktioniert.",
+			"wifi": "y",
+			"kid": ""
+		}, {
+			"topic": "Arbeitsplatz",
+			"title": "Cyber Corp.",
+			"image": "player-cyber.jpg",
+			"text": "Du arbeitest bei einem sehr modernen Unternehmen.\nAlle /Arbeit/-Aufgaben zählen für dich als Internetkarte.\nDu kannst jederzeit WfH machen. Du kannst dafür im Schritt /Aufgabenteil erledigen/ einen Aufgabenmarker auf die /Arbeit/-Karte legen, wenn du zuhause bist und das Internet funktioniert.",
+			"wifi": "y",
+			"kid": ""
+		}, {
+			"topic": "Arbeitsplatz",
+			"title": "Bank-AG",
+			"image": "player-bank.jpg",
+			"text": "Du arbeitest auf der Bank.\n\nDu bekommst einfach Mitarbeiterkredit, auch wenn dir die Schulden Sorgen machen: Du kannst jederzeit 1🧠 hergeben, um 2₤ zu erhalten.\n\nDu kannst dir die /WfH/-Bonuskarte nehmen, oder einen zufälligen Bonus ziehen.",
+			"wifi": "",
+			"kid": ""
+		}, {
+			"topic": "Arbeitsplatz",
+			"title": "Apotheke",
+			"image": "player-pharmacy.jpg",
+			"text": "Du arbeitest in der Apotheke.\n\nWird dein Arbeitsplatz durch eine Maßnahme geschlossen, erhältst du einmal 2₤ als Lohnfortzahlung. (Wird die Maßnahme zurückgenommen und später erneut aktiviert, bekommst du die Lohnfortzahlung erneut.)",
+			"wifi": "",
+			"kid": ""
+		}, {
+			"topic": "Arbeitsplatz",
+			"title": "Restaurant",
+			"image": "player-waiter.jpg",
+			"text": "Du arbeitest im Restaurant.\n\nIst das Restaurant durch eine Maßnahme geschlossen, stellt es auf Lieferdienst um und du kannst es weiterhin betreten, um /Arbeit/-Aufgaben dort zu erledigen. \n\nEssen kannst du dort dann aber auch nicht mehr.",
+			"wifi": "",
+			"kid": ""
+		}, {
+			"topic": "Arbeitsplatz",
+			"title": "Friseur",
+			"image": "player-hairdresser.jpg",
+			"text": "Du arbeitest beim Friseur.\n\nWird dein Arbeitsplatz durch eine Maßnahme geschlossen, erhältst du einmal 2₤ als Lohnfortzahlung. (Wird die Maßnahme zurückgenommen und später erneut aktiviert, bekommst du die Lohnfortzahlung erneut.)",
+			"wifi": "",
+			"kid": ""
+		}, {
+			"topic": "Charakter",
+			"title": "Organisationstalent",
+			"image": "",
+			"text": "Dir stehen 4 (statt 3) Aufgabenmarker zur Verfügung.",
+			"wifi": "",
+			"kid": ""
+		}, {
+			"topic": "Charakter",
+			"title": "Chaot",
+			"image": "",
+			"text": "Dir stehen nur 2 Aufgabenmarker zur Verfügung. \n\nDu kannst zu Beginn deines Zuges eine ausgelegte Aufgabenkarte ohne Punkteabzug ablegen, statt neue Aufgabenkarten zu ziehen.",
+			"wifi": "",
+			"kid": ""
+		}, {
+			"topic": "Charakter",
+			"title": "Workaholic",
+			"image": "",
+			"text": "Du kannst in deinem Zug 4 (statt 3) Aufgabenkarten ziehen und davon 2-4 behalten.",
+			"wifi": "",
+			"kid": ""
+		}, {
+			"topic": "Charakter",
+			"title": "Faulsack",
+			"image": "",
+			"text": "Du darfst nur 2 statt 3 Aufgabenkarten ziehen, kannst aber frei wählen, ob und welche du behältst.",
+			"wifi": "",
+			"kid": ""
+		}, {
+			"topic": "Charakter",
+			"title": "Stoiker",
+			"image": "",
+			"text": "Du beginnst das Spiel mit 4🧠 und kannst bis zu 5🧠 haben.",
+			"wifi": "",
+			"kid": ""
+		}, {
+			"topic": "Charakter",
+			"title": "Robust",
+			"image": "",
+			"text": "Du beginnst das Spiel mit 4❤ und kannst bis zu 5❤ haben.",
+			"wifi": "",
+			"kid": ""
+		}, {
+			"topic": "Bonus",
+			"title": "Auto",
+			"image": "",
+			"text": "Du besitzt das Auto und kannst dich in einem Zug beliebig weit fortbewegen.",
+			"wifi": "",
+			"kid": ""
+		}, {
+			"topic": "Bonus",
+			"title": "Fahrrad",
+			"image": "",
+			"text": "Du besitzt das Fahrrad und kannst dich damit in einem Zug bis zu 3 Straßen weit bewegen.\n\nWird diese Karte zu Beginn nicht gezogen oder das Fahrrad abgelegt, wird diese Karte offen ausgelegt und kann im Einkaufszentrum für 3₤ erworben werden.",
+			"wifi": "",
+			"kid": ""
+		}, {
+			"topic": "Bonus",
+			"title": "Home-Gym",
+			"image": "",
+			"text": "Du kannst die Aufgabe /Sport/ von Zuhause aus erfüllen. \n\nIst die Schule geschlossen, erhältst du dafür aber keinen 🧠-Bonus.",
+			"wifi": "",
+			"kid": ""
+		}, {
+			"topic": "Bonus",
+			"title": "Youtube-Pilates",
+			"image": "",
+			"text": "Du kannst die Aufgabe /Sport/ von Zuhause aus erfüllen, wenn das Internet funktioniert. \n\nIst die Schule geschlossen, erhältst du dafür aber keinen 🧠-Bonus.",
+			"wifi": "y",
+			"kid": ""
+		}, {
+			"topic": "Bonus",
+			"title": "Läufer",
+			"image": "",
+			"text": "Du kannst die Aufgabe /Sport/ von Zuhause aus erfüllen. \n\nIst die Schule geschlossen, erhältst du dafür aber keinen 🧠-Bonus.",
+			"wifi": "",
+			"kid": ""
+		}, {
+			"topic": "Bonus",
+			"title": "Kinderlos",
+			"image": "",
+			"text": "Du kannst keine Aufgaben mit Kinder-Symbol erfüllen, dafür wirkt sich die Maßnahme /Schule geschlossen/ nicht auf deine 🧠 aus.",
+			"wifi": "",
+			"kid": "y"
+		}, {
+			"topic": "Bonus WfH",
+			"title": "Bank-AG: WfH",
+			"image": "player-wfh.jpg",
+			"text": "Sollte die Bank-AG geschlossen sein, kannst du von Zuhause aus arbeiten.\nDu kannst dafür im Schritt /Aufgabenteil erledigen/ einen Aufgabenmarker auf die /Arbeit/-Karte legen, wenn du zuhause bist und das Internet funktioniert.\n\nNur wenn dein Arbeitsplatz die Bank-AG ist!",
+			"wifi": "y",
+			"kid": ""
+		}
+	],
+
+	"measure": [{
+			"level": 1,
+			"image": "measure-mask.jpg",
+			"title": "Maskenpflicht",
+			"subtitle": "in Gebäuden",
+			"text": "Bereits anwesende Personen beim Betreten eines Gebäudes erhöhen nicht mehr die Infektionszahl."
+		}, {
+			"level": 1,
+			"image": "measure-distance.jpg",
+			"title": "Abstandsregel",
+			"subtitle": "in Gebäuden",
+			"text": "Gebäude können nicht mehr betreten werden, wenn bereits eine Person anwesend ist. Ausnahme: Wohngebäude."
+		}, {
+			"level": 1,
+			"image": "measure-mask-traffic.jpg",
+			"title": "Maskenpflicht",
+			"subtitle": "in Öffis",
+			"text": "Bereits anwesende Personen beim Betreten des öffentlichen Verkehrs erhöhen nicht mehr die Infektionszahl."
+		}, {
+			"level": 1,
+			"image": "measure-distance-traffic.jpg",
+			"title": "Abstandsregel",
+			"subtitle": "in Öffis",
+			"text": "Im öffentlichen Verkehr dürfen sich maximal 50% der Spieler (abgerundet) gleichzeitig aufhalten."
+		}, {
+			"level": 1,
+			"image": "measure-closed-1.jpg",
+			"title": "Kino",
+			"subtitle": "geschlossen",
+			"text": "Das Kino kann nicht mehr betreten werden."
+		}, {
+			"level": 1,
+			"image": "measure-closed-1.jpg",
+			"title": "Fitnessstudio",
+			"subtitle": "geschlossen",
+			"text": "Das Fitnessstudio kann nicht mehr betreten werden."
+		}, {
+			"level": 1,
+			"image": "measure-closed-1.jpg",
+			"title": "Disco",
+			"subtitle": "geschlossen",
+			"text": "Die Disco kann nicht mehr betreten werden."
+		}, {
+			"level": 2,
+			"image": "measure-closed-1.jpg",
+			"title": "Friseur",
+			"subtitle": "geschlossen",
+			"text": "Der Friseursalon kann nicht mehr betreten werden."
+		}, {
+			"level": 2,
+			"image": "measure-closed-1.jpg",
+			"title": "Restaurant",
+			"subtitle": "geschlossen",
+			"text": "Das Restaurant kann nicht mehr betreten werden. "
+		}, {
+			"level": 2,
+			"image": "measure-closed-1.jpg",
+			"title": "Einkaufszentrum",
+			"subtitle": "geschlossen",
+			"text": "Das Einkaufszentrum kann nicht mehr betreten werden."
+		}, {
+			"level": 2,
+			"image": "measure-closed-1.jpg",
+			"title": "Museum",
+			"subtitle": "geschlossen",
+			"text": "Das Museum kann nicht mehr betreten werden."
+		}, {
+			"level": 3,
+			"image": "measure-closed-1.jpg",
+			"title": "Öffentlicher Verkehr",
+			"subtitle": "eingestellt",
+			"text": "Der öffentliche Verkehr kann nicht mehr betreten werden."
+		}, {
+			"level": 3,
+			"image": "measure-closed-1.jpg",
+			"title": "Schule",
+			"subtitle": "geschlossen",
+			"text": "Die Schule ist geschlossen und kann nicht mehr betreten werden. \n\nWeil die Kinder zu Hause sind, kostet WfH jeweils 1🧠."
+		}, {
+			"level": 3,
+			"image": "measure-closed-1.jpg",
+			"title": "Büros",
+			"subtitle": "geschlossen",
+			"text": "Die Büros (Cyber Corp. und Bank-AG) sind geschlossen und können nicht mehr betreten werden. Wer dort arbeitet und kein WfH machen kann, erhält einmalig 1₤ als Lohnfortzahlung."
+		}, {
+			"level": 3,
+			"image": "measure-checkpoint.jpg",
+			"title": "Straßensperren",
+			"subtitle": "",
+			"text": "Es dürfen nur mehr Gebäude betreten werden, die an den eigenen Wohnort angrenzen."
+		}, {
+			"level": 4,
+			"image": "measure-closed-1.jpg",
+			"title": "Arztpraxis",
+			"subtitle": "geschlossen",
+			"text": "Die Arztpraxis ist geschlossen und kann nicht mehr betreten werden."
+		}, {
+			"level": 4,
+			"image": "measure-closed-1.jpg",
+			"title": "Supermarkt",
+			"subtitle": "geschlossen",
+			"text": "Der Supermarkt ist geschlossen und kann nicht mehr betreten werden."
+		}, {
+			"level": 4,
+			"image": "measure-closed-1.jpg",
+			"title": "Apotheke",
+			"subtitle": "geschlossen",
+			"text": "Die Apotheke ist geschlossen und kann nicht mehr betreten werden."
+		}, {
+			"level": 4,
+			"image": "measure-checkpoint.jpg",
+			"title": "Ausgangssperre",
+			"subtitle": "",
+			"text": "Der eigene Wohnort darf nur verlassen werden, wenn man eine /notwendige/ Aufgabe (Arbeit, Schülertaxi, Arztbesuch, Kinderarzt) ausliegen hat, die nicht durch Schließungen beeinträchtigt ist. \n\nSonst ist, wenn man sich am Ende eines Zugs nicht zu Hause befindet, 1₤ Strafe zu entrichten."
+		}, {
+			"level": 4,
+			"image": "measure-lockdown.jpg",
+			"title": "Lockdown!",
+			"subtitle": "",
+			"text": "Liegen keine Aufgaben aus, endet das Spiel sofort!\n\nFür jede ausliegende Aufgabe wird die Infektionszahl um 1 reduziert, Maßnahmen zurückgenommen. \n\nAlle Aufgaben wie in Schritt 3 abwerfen. \n\nAusliegende Ereignisse und Ereignismarker entfernen.\n\nJeder wird auf seine Wohnung zurückgesetzt, verliert 1 ❤ od. 🧠."
+		}
+	],
+
+	"breakdown": [{
+			"title": "Depression",
+			"blurb": "Nimm dir diese Karte, wenn deine 🧠 auf 0 fällt.",
+			"image": "event-frustration.jpg",
+			"text": "Du darfst maximal 2 Aufgabenkarten ausliegen haben und musst alle darüberhinausgehenden kostenlos abwerfen. Du kannst in Schritt 3 beliebig viele unerledigte Aufgaben kostenlos abwerfen.\nSobald deine 🧠 wieder 1 erreicht hat, erhältst du ein zweites 🧠 dazu und wirfst diese Karte ab."
+		}, {
+			"title": "Krankheit",
+			"blurb": "Nimm dir diese Karte, wenn deine ❤ auf 0 fällt.",
+			"image": "trauma.jpg",
+			"text": "Wirf alle deine ausliegenden Aufgaben ab. Du ziehst keine Aufgaben mehr und nutzt nur Auto, Taxi und Öffi zur Fortbewegung.\nErhöhe deine ❤ auf 2, wenn du das Krankenhaus betrittst (auch wenn geschlossen). \nLege diese Karte ab, wenn du wieder 2❤ hast."
+		}
+	],
+
+	"event": [{
+			"title": "Überlastung",
+			"blurb": "Die Krankenhäuser sind überfüllt!",
+			"image": "event-hospital-full.jpg",
+			"text": "Im Krankenhaus können keine Aufgaben mehr erfüllt werden (Ausnahme: /Krankheit/).\n\nBleibt ausliegen, bis eine Maßnahme zurückgenommen wird."
+		}, {
+			"title": "Schwurblerdemo",
+			"blurb": "Kauft Aluminiumaktien!",
+			"image": "event-demo.jpg",
+			"text": "Auto-, Fahrrad- und Taxifahrten sind nicht mehr möglich.\n\nBleibt ausliegen, bis eine Maßnahme zurückgenommen wird."
+		}, {
+			"title": "Schwurblerdemo",
+			"blurb": "Vor der Schule!",
+			"image": "event-demo.jpg",
+			"text": "Die Schule kann nicht mehr betreten oder verlassen werden. Wer sich derzeit in der Schule befindet, verliert 1🧠.\n\nLeg 2 Ereignismarker deiner Farbe auf die Schule."
+		}, {
+			"title": "Schwurblerdemo",
+			"blurb": "Vor dem Krankenhaus!",
+			"image": "event-demo.jpg",
+			"text": "Das Krankenhaus kann nicht mehr betreten oder verlassen werden (Ausnahme: /Krankheit/). Wer sich derzeit im Krankenhaus befindet, verliert 1🧠.\n\nLeg 2 Ereignismarker deiner Farbe auf das Krankenhaus."
+		}, {
+			"title": "Internetausfall",
+			"blurb": "Connection reset by peer",
+			"image": "event-network-broken.jpg",
+			"text": "Internet-Aufgabenkarten können nicht mehr erfüllt werden.\n\nBleibt ausliegen, bis ein Spieler bei der Hotline angerufen hat - das kann jederzeit im jeweiligen Zug erfolgen und kostet 1🧠."
+		}, {
+			"title": "Internetstörung",
+			"blurb": "11001001000102",
+			"image": "event-network-disturbed.jpg",
+			"text": "Jeder Spieler verliert für jede seiner ausliegenden Internet-Aufgabenkarten 1🧠, oder wirft die Aufgabe (ohne Aufgabenmarker -> Punkteverlust) ab."
+		}, {
+			"title": "Internetstörung",
+			"blurb": "11001001000102",
+			"image": "event-network-disturbed.jpg",
+			"text": "Du verlierst für jede deiner ausliegenden Internet-Aufgabenkarten 1🧠, oder wirfst die Aufgabe (ohne Aufgabenmarker -> Punkteverlust) ab."
+		}, {
+			"title": "Coronakilos",
+			"blurb": "Wer hat meine Hose enger genäht?!",
+			"image": "event-weight-gain.jpg",
+			"text": "Jeder Spieler verliert 1 ❤."
+		}, {
+			"title": "Coronakilos",
+			"blurb": "Wer hat meine Hose enger genäht?!",
+			"image": "event-weight-gain.jpg",
+			"text": "Du verlierst 1 ❤."
+		}, {
+			"title": "Lagerkoller",
+			"blurb": "AAAAAAAAHHHHHH!",
+			"image": "event-frustration.jpg",
+			"text": "Jeder Spieler wirft sofort (ohne Punkteverlust) alle Aufgaben ab, die aufgrund von Maßnahmen oder Ereignissen momentan nicht abschließbar sind.\n\nSind es 2 oder mehr, verliert der Spieler 1🧠, bei 4 oder mehr sogar 2🧠."
+		}, {
+			"title": "Lagerkoller",
+			"blurb": "AAAAAAAAHHHHHH!",
+			"image": "event-frustration.jpg",
+			"text": "Du wirfst sofort (ohne Punkteverlust) alle Aufgaben ab, die aufgrund von Maßnahmen oder Ereignissen momentan nicht abschließbar sind.\n\nSind es 2 oder mehr, verlierst du 1🧠, bei 4 oder mehr sogar 2🧠."
+		}, {
+			"title": "Fahrraddieb",
+			"blurb": "Ich habs doch hier angekettet?",
+			"image": "event-bike-theft.jpg",
+			"text": "Wer das Fahrrad hat, muss es ablegen.\n\nDas Fahrrad kann im Einkaufszentrum wieder für 3₤ erworben werden."
+		}, {
+			"title": "Fahrradunfall",
+			"blurb": "Uff Aua Autsch!",
+			"image": "event-bike-accident.jpg",
+			"text": "Wer das Fahrrad hat, muss es ablegen und verliert alle ❤ bis auf 1.\nDas Fahrrad kann im Einkaufszentrum wieder für 3₤ erworben werden.\n\nHat derzeit kein Spieler das Fahrrad, verlierst stattdessen du ein ❤."
+		}, {
+			"title": "Autounfall",
+			"blurb": "Crash Boom Bang!",
+			"image": "event-car-accident.jpg",
+			"text": "Wer das Auto hat, muss es ablegen (es ist dann aus dem Spiel).\nSeine ❤ reduziert sich auf 0 und er erhält eine /Krankheit/-Karte.\n\nIst das Auto nicht (mehr) im Spiel, verlierst stattdessen du ein ❤."
+		}, {
+			"title": "Straßendesinfektion",
+			"blurb": "Unheimlich!",
+			"image": "event-disinfect.jpg",
+			"text": "Trucks versprühen im ganzen Stadtgebiet Desinfektionsmittel. Auto-, Fahrrad- und Taxifahrten sind nicht möglich. \n\nLeg 2 Ereignismarker auf diese Karte."
+		}, {
+			"title": "Pressekonferenz",
+			"blurb": "Die nächsten Wochen werden entscheidend sein.",
+			"image": "event-press.jpg",
+			"text": "Kanzler und Gesundheitsminister sprechen der Bevölkerung Mut zu - ohne Erfolg.\n\nJeder Spieler verliert 1🧠."
+		}, {
+			"title": "Eigenverantwortung",
+			"blurb": "Wir sind schließlich alle erwachsen!",
+			"image": "",
+			"text": "Auch wenn es dich mitnimmt, hältst du alle Empfehlungen vorbildlich ein. \n\nDu verlierst 1🧠, aber die Infektionszahl sinkt um 1 Punkt."
+		}, {
+			"title": "Eigenverantwortung",
+			"blurb": "Wir sind schließlich alle erwachsen!",
+			"image": "",
+			"text": "Benenne einen deiner Mitspieler, der alle Empfehlungen vorbildlich einhält und lobe ihn mit salbungsvollen Worten.\n\nEr verliert 1🧠 und die Infektionszahl sinkt um 1 Punkt."
+		}, {
+			"title": "Kaufhaus Locktown",
+			"blurb": "Regional, Digital, Phänomenal!",
+			"image": "event-locktown.jpg",
+			"text": "Die Wirtschaftskammer kurbelt mit einem raffinierten Internetportal die heimische Wirtschaft an.\n\nFast jedenfalls. Jeder Spieler verliert 1🧠."
+		}, {
+			"title": "Schii-ii-ii-ii-foan",
+			"blurb": "Die Behörden haben alles richtig gemacht!",
+			"image": "event-frustration.jpg",
+			"text": "Absurde Diskussionen über Staus an den Skiliften und Höchstbelegung von Seilbahngondeln lassen dich an der Menschheit zweifeln. \n\nDu verlierst 1🧠."
+		}, {
+			"title": "Bundesgärten",
+			"blurb": "Wieso ist da zugesperrt?!",
+			"image": "",
+			"text": "Die Freizeitmöglichkeiten draußen sind empfindlich eingeschränkt.\n\nJeder verliert wahlweise 1🧠 oder 1❤."
+		}, {
+			"title": "Babyelefant",
+			"blurb": "Er kann sogar Purzelbäume schlagen!",
+			"image": "event-elephant.jpg",
+			"text": "Entzückende Bilder des Dickhäuternachwuchses aus dem örtlichen Zoo lassen alle ihre Sorgen für ein paar Minuten vergessen.\n\nJeder Spieler erhält 1🧠."
+		}, {
+			"title": "Babyelefant",
+			"blurb": "Er kann sogar Purzelbäume schlagen!",
+			"image": "event-elephant.jpg",
+			"text": "Entzückende Bilder des Dickhäuternachwuchses aus dem örtlichen Zoo lassen dich deine Sorgen für ein paar Minuten vergessen.\n\nDu erhältst 1🧠."
+		}, {
+			"title": "Renovierung",
+			"blurb": "Es kommt momentan eh niemand.",
+			"image": "event-closed-1.jpg",
+			"text": "Das Restaurant wird renoviert und ist geschlossen. \n\nLeg 2 Ereignismarker deiner Farbe auf das Restaurant."
+		}, {
+			"title": "Renovierung",
+			"blurb": "Es kommt momentan eh niemand.",
+			"image": "event-closed-1.jpg",
+			"text": "Das Kino wird renoviert und ist geschlossen. \n\nLeg 2 Ereignismarker deiner Farbe auf das Kino."
+		}, {
+			"title": "Renovierung",
+			"blurb": "Es kommt momentan eh niemand.",
+			"image": "event-closed-1.jpg",
+			"text": "Das Einkaufszentrum wird momentan renoviert und ist geschlossen. \n\nLeg 2 Ereignismarker deiner Farbe auf das Einkaufszentrum."
+		}, {
+			"title": "Renovierung",
+			"blurb": "Mehr Licht!",
+			"image": "event-closed-1.jpg",
+			"text": "Die Disco wird momentan renoviert und ist geschlossen. \n\nLeg 2 Ereignismarker deiner Farbe auf die Disco."
+		}, {
+			"title": "Renovierung",
+			"blurb": "Gewichtige Änderung!",
+			"image": "event-closed-1.jpg",
+			"text": "Das Fitnessstudio wird momentan renoviert und ist geschlossen. \n\nLeg 2 Ereignismarker deiner Farbe auf das Fitnessstudio."
+		}, {
+			"title": "Umgestaltung",
+			"blurb": "Mondrian statt Schlendrian!",
+			"image": "event-closed-1.jpg",
+			"text": "Das Museum wird momentan umgestaltet und ist geschlossen. \n\nLeg 2 Ereignismarker deiner Farbe auf das Museum."
+		}, {
+			"title": "Fernsehdebatte",
+			"blurb": "I bhak di net!",
+			"image": "",
+			"text": "Unüberlegter TV-Konsum kostet dich 1🧠."
+		}, {
+			"title": "Heimwerkerking",
+			"blurb": "Harf harf harf!",
+			"image": "",
+			"text": "Du hättest diese Reparatur doch lieber einem Profi überlassen sollen. Du verlierst 1❤."
+		}, {
+			"title": "Retro-Trend",
+			"blurb": "Locktown Horror Story",
+			"image": "",
+			"text": "Eine Fernsehserie löst einen 80er-Jahre Nostalgie-Trend aus. Du lädst dir Aerobics-Videos aus dem Netz und erhältst 1❤."
+		}, {
+			"title": "Intervention",
+			"blurb": "Die Lobby ist immer und überall!",
+			"image": "",
+			"text": "Ersetze eine beliebige ausliegende Maßnahme (aktiv oder geplant) durch eine von dir aus dem Stapel gewählte Gleichwertige. (Dies zählt nicht als /zurücknehmen/.)\nAlternativ kannst du ein ausliegendes Ereignis beenden (Karte od. Marker)."
+		}, {
+			"title": "Intervention",
+			"blurb": "War das eine Oligarchennichte?",
+			"image": "",
+			"text": "Ersetze eine beliebige ausliegende Maßnahme (aktiv oder geplant) durch eine von dir aus einem beliebigen Stapel gewählte. (Dies zählt nicht als /zurücknehmen/.)\nAlternativ kannst du ein ausliegendes Ereignis beenden (Karte od. Marker)."
+		}, {
+			"title": "Avocagolf",
+			"blurb": "Schlagen Veganer eigentlich Birdies?",
+			"image": "",
+			"text": "Deine Lieblingssportart kann momentan nicht mehr ausgeübt werden - aber du erfindest eine Variante, mit der du geschickt alle Maßnahmen umgehst. \n\nDu erhältst 1❤."
+		}, {
+			"count": 2,
+			"title": "Wochenplan",
+			"blurb": "Es ist Mittwoch, meine Kerle!",
+			"image": "",
+			"text": "Du bringst Ordnung in deinen Alltag. \n\nWirf wahlweise bis zu 3 Aufgaben kostenlos ab oder such dir bis zu 2 Aufgaben aus dem Aufgabenkartenstapel aus (mische ihn dann neu)."
+		}, {
+			"title": "Stadelparty",
+			"blurb": "Wo liegt hier eigentlich der Stroh-Rum?",
+			"image": "",
+			"text": "Die Polizei löst deine illegale Stadelparty auf. \n\nZahl 2₤ Strafe - wenn du das nicht kannst, wirst du verprügelt und verlierst 1❤."
+		}, {
+			"title": "Garagenparty",
+			"blurb": "Blau-Silber Partybus, schalalalala!",
+			"image": "",
+			"text": "Neben zahlreichen Freunden besuchen leider auch Freund und Helfer deine illegale Garagenparty. \n\nZahl 2₤ Strafe - wenn du das nicht kannst, wirst du nur streng ermahnt und verlierst 1🧠."
+		}, {
+			"title": "Kabinenparty",
+			"blurb": "Geht scho gemma Voigas!",
+			"image": "",
+			"text": "Du gibst eine höchst illegale und ebenso geheime Party für deine Freunde - und wirst nicht erwischt!\n\nErhalte 1🧠 und erhöhe den Infektionszähler um 1 Punkt."
+		}, {
+			"title": "Meditation",
+			"blurb": "Geist und Körper im Einklang",
+			"image": "",
+			"text": "Ein Online-Yogakurs bringt euch in Harmonie.\n\nJeder kann 1🧠 abgeben, um 1❤ zu erhalten oder umgekehrt."
+		}, {
+			"title": "Meditation",
+			"blurb": "Geist und Körper im Einklang",
+			"image": "",
+			"text": "Du entdeckst einen Online-Yogakurs, der deine Chakren harmonisiert.\n\nDu kannst, wenn du möchtest, 1🧠 abgeben, um 1❤ zu erhalten oder umgekehrt."
+		}, {
+			"title": "Flashback",
+			"blurb": "Korrupte Haben Geld",
+			"image": "",
+			"text": "Medienberichte über ein Gerichtsurteil gegen einen ehemaligen Minister erinnern dich an eine bessere Zeit.\n\nDu erhältst 1🧠."
+		}
+	]
+
+}
