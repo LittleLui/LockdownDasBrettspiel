@@ -3,12 +3,12 @@
 			"title": "Phase-2-Studie",
 			"blurb": "... abgeschlossen!",
 			"image": "vaccine-syringe.jpg",
-			"text": "Ein vielversprechender Impfstoff wird entwickelt. \n\nJeder Spieler erhält für jeweils 3 🧠/❤/₤ einen 🏆.\n\nJeder Spieler erhält danach 1🧠 oder 1❤."
+			"text": "Ein vielversprechender Impfstoff wird entwickelt.\n\nJeder Spieler erhält für jeweils 3 🧠/❤/₤ einen 🏆.\n\nJeder Spieler erhält danach 1🧠 oder 1❤."
 		}, {
 			"title": "Seuchenampel",
 			"blurb": "... darum lieb' ich alles was so grün ist ...",
 			"image": "vaccine-trafficlights.jpg",
-			"text": "Eine Strategie wird vorgestellt. \nLegt auf alle freien Felder des Maßnahmenbretts eine passende Maßnahmenkarte.\nJeder Spieler kann eine ausliegende Aufgabe abschließen."
+			"text": "Eine Strategie wird vorgestellt.\nLegt auf alle freien Felder des Maßnahmenbretts eine passende Maßnahmenkarte.\nJeder Spieler erhält 1🧠 oder 1❤."
 		}, {
 			"title": "Phase-3-Studie",
 			"blurb": "... abgeschlossen!",
@@ -1127,7 +1127,7 @@
 			"image": "measure-lockdown.jpg",
 			"title": "Lockdown!",
 			"subtitle": "",
-			"text": "Liegen keine Aufgaben aus, endet das Spiel sofort!\n\nFür jede ausliegende Aufgabe wird die Infektionszahl um 1 reduziert, Maßnahmen zurückgenommen. \n\nAlle Aufgaben wie in Schritt 3 abwerfen. \n\nAusliegende Ereignisse und Ereignismarker entfernen.\n\nJeder wird auf seine Wohnung zurückgesetzt, verliert 1 ❤ od. 🧠."
+			"text": "Liegen keine Aufgaben aus, endet das Spiel sofort!\n\nFür jede ausliegende Aufgabe wird die Infektionszahl um 1 reduziert, Maßnahmen zurückgenommen. \n\nAlle Aufgaben wie in Schritt 3 abwerfen. \n\nAusliegende Ereignisse entfernen.\n\nJeder wird auf seine Wohnung zurückgesetzt, verliert 1 ❤ od. 🧠."
 		}
 	],
 
@@ -1154,16 +1154,6 @@
 			"blurb": "Kauft Aluminiumaktien!",
 			"image": "event-demo.jpg",
 			"text": "Auto-, Fahrrad- und Taxifahrten sind nicht mehr möglich.\n\nBleibt ausliegen, bis eine Maßnahme zurückgenommen wird."
-		}, {
-			"title": "Schwurblerdemo",
-			"blurb": "Vor der Schule!",
-			"image": "event-demo.jpg",
-			"text": "Die Schule kann nicht mehr betreten oder verlassen werden. Wer sich derzeit in der Schule befindet, verliert 1🧠.\n\nLeg 2 Ereignismarker deiner Farbe auf die Schule."
-		}, {
-			"title": "Schwurblerdemo",
-			"blurb": "Vor dem Krankenhaus!",
-			"image": "event-demo.jpg",
-			"text": "Das Krankenhaus kann nicht mehr betreten oder verlassen werden (Ausnahme: /Krankheit/). Wer sich derzeit im Krankenhaus befindet, verliert 1🧠.\n\nLeg 2 Ereignismarker deiner Farbe auf das Krankenhaus."
 		}, {
 			"title": "Internetausfall",
 			"blurb": "Connection reset by peer",
@@ -1218,7 +1208,7 @@
 			"title": "Straßendesinfektion",
 			"blurb": "Unheimlich!",
 			"image": "event-disinfect.jpg",
-			"text": "Trucks versprühen im ganzen Stadtgebiet Desinfektionsmittel. Auto-, Fahrrad- und Taxifahrten sind nicht möglich. \n\nLeg 2 Ereignismarker auf diese Karte."
+			"text": "Trucks versprühen im ganzen Stadtgebiet Desinfektionsmittel. Auto-, Fahrrad- und Taxifahrten sind nicht möglich. \nBleibt ausliegen, bis du wieder an der Reihe bist."
 		}, {
 			"title": "Pressekonferenz",
 			"blurb": "Die nächsten Wochen werden entscheidend sein.",
@@ -1260,36 +1250,6 @@
 			"image": "event-elephant.jpg",
 			"text": "Entzückende Bilder des Dickhäuternachwuchses aus dem örtlichen Zoo lassen dich deine Sorgen für ein paar Minuten vergessen.\n\nDu erhältst 1🧠."
 		}, {
-			"title": "Renovierung",
-			"blurb": "Es kommt momentan eh niemand.",
-			"image": "event-closed-1.jpg",
-			"text": "Das Restaurant wird renoviert und ist geschlossen. \n\nLeg 2 Ereignismarker deiner Farbe auf das Restaurant."
-		}, {
-			"title": "Renovierung",
-			"blurb": "Es kommt momentan eh niemand.",
-			"image": "event-closed-1.jpg",
-			"text": "Das Kino wird renoviert und ist geschlossen. \n\nLeg 2 Ereignismarker deiner Farbe auf das Kino."
-		}, {
-			"title": "Renovierung",
-			"blurb": "Es kommt momentan eh niemand.",
-			"image": "event-closed-1.jpg",
-			"text": "Das Einkaufszentrum wird momentan renoviert und ist geschlossen. \n\nLeg 2 Ereignismarker deiner Farbe auf das Einkaufszentrum."
-		}, {
-			"title": "Renovierung",
-			"blurb": "Mehr Licht!",
-			"image": "event-closed-1.jpg",
-			"text": "Die Disco wird momentan renoviert und ist geschlossen. \n\nLeg 2 Ereignismarker deiner Farbe auf die Disco."
-		}, {
-			"title": "Renovierung",
-			"blurb": "Gewichtige Änderung!",
-			"image": "event-closed-1.jpg",
-			"text": "Das Fitnessstudio wird momentan renoviert und ist geschlossen. \n\nLeg 2 Ereignismarker deiner Farbe auf das Fitnessstudio."
-		}, {
-			"title": "Umgestaltung",
-			"blurb": "Mondrian statt Schlendrian!",
-			"image": "event-closed-1.jpg",
-			"text": "Das Museum wird momentan umgestaltet und ist geschlossen. \n\nLeg 2 Ereignismarker deiner Farbe auf das Museum."
-		}, {
 			"title": "Fernsehdebatte",
 			"blurb": "I bhak di net!",
 			"image": "",
@@ -1308,12 +1268,12 @@
 			"title": "Intervention",
 			"blurb": "Die Lobby ist immer und überall!",
 			"image": "",
-			"text": "Ersetze eine beliebige ausliegende Maßnahme (aktiv oder geplant) durch eine von dir aus dem Stapel gewählte Gleichwertige. (Dies zählt nicht als /zurücknehmen/.)\nAlternativ kannst du ein ausliegendes Ereignis beenden (Karte od. Marker)."
+			"text": "Ersetze eine beliebige ausliegende Maßnahme (aktiv oder geplant) durch eine von dir aus dem Stapel gewählte Gleichwertige. (Dies zählt nicht als /zurücknehmen/.)\nAlternativ kannst du ein ausliegendes Ereignis beenden."
 		}, {
 			"title": "Intervention",
 			"blurb": "War das eine Oligarchennichte?",
 			"image": "",
-			"text": "Ersetze eine beliebige ausliegende Maßnahme (aktiv oder geplant) durch eine von dir aus einem beliebigen Stapel gewählte. (Dies zählt nicht als /zurücknehmen/.)\nAlternativ kannst du ein ausliegendes Ereignis beenden (Karte od. Marker)."
+			"text": "Ersetze eine beliebige ausliegende Maßnahme (aktiv oder geplant) durch eine von dir aus einem beliebigen Stapel gewählte. (Dies zählt nicht als /zurücknehmen/.)\nAlternativ kannst du ein ausliegendes Ereignis beenden."
 		}, {
 			"title": "Avocagolf",
 			"blurb": "Schlagen Veganer eigentlich Birdies?",

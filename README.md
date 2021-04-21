@@ -19,7 +19,7 @@ Wie das Spielmaterial fertig gebastelt aussieht, zeigen die Fotos in der Spielan
  * Spielfiguren: auch 2 Varianten zur Auswahl:
    * markers\3dprint - Spielfiguren/Marker zum 3D-drucken. Benötigt wird 1x virus.stl, und für n Spieler 3n+1 (brain.stl, heart.stl, task.stl) und ca. 10n coin.stl.
    * markers\2dprint.pdf - Alternative zum 3D-Druck: Ausdrucken, auf Karton kleben und ausschneiden. Sollte mehr als genug Marker für 6 Spieler enthalten.
-   * Darüberhinaus braucht man für jeden Spieler noch zwei Halmakegel sowie ca. ein halbes Dutzend kleine Chips (Flohhüpf-Plättchen funktionieren gut) gleicher Farbe.
+   * Darüberhinaus braucht man für jeden Spieler noch zwei Halmakegel gleicher Farbe.
 
 ## Karten
 
